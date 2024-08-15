@@ -1,18 +1,18 @@
 class Vehicle{
-    constructor(type,rodinhas,passageiros){
+    constructor(type,wheels,capacity){
         this.type = type;
-        this.rodinhas = rodinhas;
-        this.passageiros = passageiros;
+        this.wheels = wheels;
+        this.capacity = capacity;
     }
 
-    dirigir(gasol){
+    dirigir(gas){
         setInterval(() => {
-            if(gasol >= 0) console.log(gasol, "\n");
-            gasol -=10;
-            if(gasol < 0) clearInterval()
+            if(gas >= 0) console.log(gas, "\n");
+            gas -=10;
+            if(gas < 0) clearInterval()
         },1000)
     }
 }
 
-const carrinho = new Vehicle("carrinho",4,5);
-carrinho.dirigir(100);
+const carro = new Vehicle("carro",4,5);
+carro.dirigir(100);
