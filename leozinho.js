@@ -1,4 +1,4 @@
-const amorzinhos = ["Renatinha Rodrigues", "Leonardo", "Arthur", "Ana", "Fernando", "Erick", "Guilherme", "Wellington", "Erick","João Pedro", "Andrio"];
+const amorzinhos = ["Leozinho", "Geovana", "Adriano"];
 
 class Amor {
     constructor(array){
